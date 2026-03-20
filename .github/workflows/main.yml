@@ -14,14 +14,14 @@ jobs:
     
     steps:
       - name: checkout do código
-      - uses: actions/checkout@v5
+        uses: actions/checkout@v5
       
       - name: Instalação do Node
-      - uses: actions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           
       - name: Instalar as dependencias 
-      - run: npm install       
+        run: npm install       
       - name: Rodar o build
-      - run: npm run build
+        run: npm run build
