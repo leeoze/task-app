@@ -18,7 +18,7 @@ Aplicação de gerenciamento de tarefas construída com Next.js 15, TypeScript e
 
 ## Instalação
 ```bash
-git clone https://github.com/leeoze/task-app.git
+git clone https://github.com/leeoze/Contador-de-Tarefas.git
 cd task-app
 npm install
 ```
