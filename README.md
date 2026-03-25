@@ -18,6 +18,8 @@ Aplicação de gerenciamento de tarefas construída com Next.js 15, TypeScript e
 
 ## Instalação
 ```bash
+git clone https://github.com/leeoze/task-app.git
+cd task-app
 npm install
 ```
 
@@ -31,10 +33,4 @@ Acesse [http://localhost:3000](http://localhost:3000).
 ```bash
 # Rodar os testes
 npm test
-
-# Testes em modo watch
-npm run test:watch
-
-# Relatório de cobertura
-npm run test:coverage
 ```
